@@ -1,12 +1,18 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>aircon</title>
-<style>body{font:16px/1.6 system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 16px;background:#0b1220;color:#dbe7ff}a{color:#5ef2ff}code{background:#05080f;padding:2px 6px;border-radius:4px}</style>
+<style>body{font:16px/1.6 system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 16px;background:#0b1220;color:#dbe7ff}a{color:#5ef2ff}td{padding:4px 12px 4px 0;vertical-align:top}code{white-space:nowrap;background:#05080f;padding:2px 6px;border-radius:4px}</style>
 </head><body>
 <img src="logo.png" width="96" height="96" alt="">
 <h1>aircon</h1>
 <p>aircon is a personal command-line tool that turns the owner's own Google Nest thermostat's air conditioning on and off using the Google Smart Device Management API.</p>
-<p><code>aircon on</code> · <code>aircon off</code> · <code>aircon status</code></p>
+<h2>Commands</h2>
+<table>
+<tr><td><code>aircon on</code></td><td>Turn on cooling at the thermostat's current setpoint</td></tr>
+<tr><td><code>aircon on 72</code></td><td>Turn on cooling and set the target to 72°F (50–90°F; turns Eco off if needed)</td></tr>
+<tr><td><code>aircon off</code></td><td>Turn the thermostat off</td></tr>
+<tr><td><code>aircon status</code></td><td>Show mode, Eco, HVAC activity, indoor temperature and setpoint</td></tr>
+</table>
 <p>It is a private, single-user tool and is not offered to the public.</p>
 <p><a href="privacy.html">Privacy policy</a></p>
 </body></html>
